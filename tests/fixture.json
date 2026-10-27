@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "tool": "win-process-pulse",
+  "collectedAtUtc": "2026-10-27T12:00:00Z",
+  "platform": "Synthetic Windows evidence; no personal data",
+  "evidence": {
+    "processorCount": 4,
+    "intervalMs": 1000,
+    "top": 10,
+    "memoryThresholdMiB": 1024,
+    "cpuThresholdPercent": 25,
+    "unmatchedFirstSample": 1,
+    "processes": [
+      {
+        "pid": 42,
+        "name": "example-worker",
+        "cpuPercent": 30,
+        "sampleMs": 1000,
+        "workingSetBytes": 2147483648,
+        "privateBytes": 1073741824
+      },
+      {
+        "pid": 43,
+        "name": "new-worker",
+        "cpuPercent": null,
+        "sampleMs": null,
+        "workingSetBytes": 2048,
+        "privateBytes": 4096
+      }
+    ]
+  },
+  "issues": []
+}
